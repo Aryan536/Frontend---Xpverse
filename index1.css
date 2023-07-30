@@ -1,0 +1,903 @@
+.XPverse{
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/banner.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-name{
+    color: #ffffff;
+}
+
+.logo-name-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.logo-name-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.logo-and-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.navigation{
+    display:flex;
+    align-items: center;
+    color: white;
+    padding: 29px 0px;
+}
+
+.nav-item{
+    padding: 0px 30px;
+}
+
+.whatsaap{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.wa-image-text{
+    display: flex;
+    background-image: url('./images/Rectangle\ 32.svg');
+    width: 200px;
+    height: 45px;
+    background: #26A69A;
+    padding: 0px 10px;
+}
+
+.wa-text{
+    align-self: center;
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 40px;
+letter-spacing: 0.1em;
+text-transform: capitalize;
+color: #FFFFFF;
+padding: 0px 10px;
+}
+
+.wa-image{
+    align-self: center;
+}
+
+.section-2{
+    background-image: url('./images/intro.svg');
+    width: 100%;
+height: 262px;
+/* left: 25px;
+top: 654px; */
+}
+
+.description{
+    width: 100%;
+    box-sizing: border-box;
+   
+    padding: 30px 70px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.nav-item-2{
+    padding: 2px 500px;
+    color: #18A0FB;
+    text-decoration-line: underline;
+    font-family: 'Bellefair';
+}
+
+
+
+.section-3-title{
+    width: 322px;
+height: 40px;
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+padding: 0px 600px;
+}
+
+.section-3-image-subtitle-description-button{
+    display: flex;
+}
+
+.section-3-image{
+    padding: 0px 45px;
+}
+
+.section-3-subtitle{
+    display: flex;
+    padding: 0px 160px;
+    align-items: center;
+}
+
+.section-3-subtitle-text{
+    /* align-self: center; */
+    padding: 0px 10px;
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+}
+
+.description-3{
+    padding: 22px 27px;
+    width: 360px;
+height: 105px;
+
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+
+
+letter-spacing: 0.05em;
+
+color: #979797;
+
+}
+
+.button{
+    width: 165px;
+height: 53px;
+
+background: rgba(255, 255, 255, 0.74);
+border: 2px solid #000000;
+    background-image: url('./images/Rectangle\ 2.svg');
+    
+}
+
+.button-text{
+    width: 128px;
+height: 40px;
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 40px;
+
+
+text-align: center;
+
+color: #979797;
+}
+
+.section-4{
+    display: flex;
+ padding: 82.5px 0px;
+ width: 100%;
+}
+.images-4{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.Rectangle{
+    width: 19%;
+
+}
+
+.Rectangle img{
+    width: 100%;
+}
+
+.title-text-5{
+    width: 627px;
+height: 40px;
+padding: 0px 45px;
+
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+
+
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.images-5{
+    display: flex;
+    padding: 0px 80px;
+}
+
+.subtitle-text-image-5{
+    display: flex;
+    padding: 0px 237.5px;
+}
+
+.subtitle-image{
+    align-self: center;
+}
+
+.subtitle-text{
+    align-self: center;
+    width: 256px;
+height: 40px;
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+padding: 12.5px 0px;
+}
+
+.description-5{
+    display: flex;
+}
+
+.description-5-1{
+    width: 339px;
+height: 175px;
+
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 35px;
+
+
+text-align: justify;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #979797;
+
+}
+
+.description-5-2{
+    padding: 0px 22.5px;
+    width: 377px;
+height: 210px;
+
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 35px;
+
+
+text-align: justify;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #979797;
+}
+
+.images-5-2{
+    padding: 0px 20px;
+}
+
+.enter-the-collection{
+    background-image: url('./images/Rectangle\ 8.svg');
+    width: 289px;
+height: 53px;
+
+
+background: rgba(255, 255, 255, 0.74);
+border: 2px solid #000000;
+}
+
+.enter-the-collection-text{
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 40px;
+/* identical to box height, or 182% */
+
+text-align: center;
+
+color: #979797;
+
+}
+
+.images-section-6{
+   
+    display: flex;
+    padding: 80px 0px;
+    width: 100%;
+    
+}
+
+.hotels{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+}
+
+.images-6-1{
+    width: 24.5%;
+}
+
+.images-6-2{
+    width: 46.8%;
+}
+
+.images-6-3{
+    width: 24.5%;
+}
+
+.oberia img{
+    width: 100%;
+}
+
+.taj img{
+    width: 100%;
+}
+
+.grand img{
+    width: 100%;
+}
+
+
+
+.lila img{
+    width: 100%;
+    
+}
+
+.mariot img{
+    width: 100%;
+}
+
+.jj img{
+    width: 100%;
+}
+
+.itd img{
+    width: 100%;
+}
+
+
+
+.section-7{
+    display: flex;
+    padding: 130px 45px;
+    width: 100%;
+}
+
+.title-7{
+    border-right: 1px solid #000000;
+    width: 50%;
+}
+
+
+.title-7 img{
+    width: 100%;
+}
+
+.title-7-name{
+    width: 212px;
+height: 40px;
+
+
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 40px;
+
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.title-7-subtitle-image{
+    display: flex;
+    padding: 25px 170px;
+}
+
+.title-7-subtitle-text{
+    padding: 0px 10px;
+    /* width: 227px;
+height: 40px; */
+
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+
+.description-7{
+    width: 509px;
+height: 280px;
+
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+
+
+letter-spacing: 0.05em;
+
+color: #979797;
+}
+
+
+
+.Image-7{
+    border-left: 1px solid #000000;
+    padding: 0px 29px;
+    width: 50%;
+}
+
+.section-8{
+    background-image: url('./images/Rectangle\ 27.svg');
+    width: 100%;
+
+
+}
+
+.text-8{
+    width: 875px;
+height: 40px;
+
+
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 40px;
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+padding: 245px 250px;
+}
+
+
+.images-9{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section-9{
+    padding: 60px 0px;
+    width: 100%;
+}
+
+.ImmagineHome{
+    width: 30%;
+}
+
+.ImmagineHome img{
+    width: 100%;
+}
+
+
+.section-10{
+    display: flex;
+    width: 100%;
+}
+
+.tile-subtitle-desc{
+    width: 50%;
+}
+
+.blocks-slabs-tiles{
+    width: 50%;
+}
+
+
+.title-10{
+    width: 290px;
+height: 60px;
+
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 40px;
+
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+padding: 0px 45px;
+}
+
+.subtitle-img-text{
+    display: flex;
+    align-items: center;
+    
+}
+
+.subtitle-text{
+    align-self: center;
+}
+
+.description-10{
+    width: 509px;
+    height: 140px;
+    left: 90px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #979797;
+}
+
+.line-6{
+    display: flex;
+}
+
+.blocks-name{
+    font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 40px;
+
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+padding: 0px 10px;
+}
+
+.blocks-description{
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+
+
+letter-spacing: 0.05em;
+
+color: #979797;
+}
+
+.slabs-name-line{
+    display: flex;
+    padding: 27px 0px;
+}
+
+.slabs-name{
+    font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+padding: 0px 10px;
+color: #000000;
+}
+
+.tiles-name-line{
+    display: flex;
+    padding: 19px 0px;
+}
+
+.tiles-name{
+    font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 40px;
+padding: 0px 10px;
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+
+.blocks-slabs-tiles{
+    padding: 0px 110.5px;
+}
+
+
+.Schedule-meeting{
+    width: 100%;
+    height: 150px;
+    /* left: 70px;
+    top: 6276px; */
+    background-image: url('./images/Rectangle 28.svg');
+    align-items: center;
+    justify-content: center;
+    margin: 51px 50px;
+    position: relative;
+}
+
+.Schedule-icon-text{
+    width: 259px;
+    height: 50px;
+    position: absolute;
+    background: #E6E6E6;
+    background-image: url('./images/Rectangle\ 29.svg');
+    align-items: center;
+    justify-content: center;
+    margin: 50px 520px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Schedule-text{
+    padding: 0px 10px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.footer{
+    width: 100%;
+    background: #E7D6D6;
+    background-image: url('./images/Rectangle\ 30.svg');
+    margin: 24px 12.5px;
+   
+}
+
+
+.image-footer-1{
+    padding: 50px 32.5px;
+    
+}
+
+
+.addresses{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.address-1{
+    width: 22%;
+
+
+    font-family: 'Belleza';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 30px 39px;
+}
+
+.address-2{
+    width: 22%;
+
+
+    font-family: 'Belleza';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    color: #000000;
+    padding: 30px 58px;
+
+}
+
+.address-text{
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+
+
+letter-spacing: 0.05em;
+
+color: #979797;
+
+}
+
+
+.Maps{
+    width: 22%;
+}
+
+.Maps-title{
+    width: 61px;
+height: 31px;
+left: 785px;
+top: 6637px;
+
+font-family: 'Belleza';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 40px;
+
+letter-spacing: 0.1em;
+text-transform: capitalize;
+
+color: #000000;
+padding: 30px 0px;
+}
+
+.Maps-image{
+    padding: 12.5px 0px;
+}
+
+
+.follow-us{
+    width: 22%;
+}
+
+
+.follow-us-title{
+    padding: 30px 0px;
+    width: 122px;
+height: 31px;
+left: 1116px;
+top: 6634px;
+
+font-family: 'Belleza';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 40px;
+/* or 174% */
+
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.follow-us-images{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+}
+
+.vector-1{
+    padding: 0px 15px;
+}
+
+
+.vector-2{
+    padding: 0px 15px;
+}
+
+.vector-3{
+    padding: 0px 15px;
+}
+
+.vector-4{
+    padding: 0px 15px;
+}
+
+
+.image-footer-2{
+    padding: 35px 32.5px;
+}
+
+.copyright{
+    display: flex;
+}
+
+.copyright-text-1{
+width: 500px;
+height: 40px;
+
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 40px;
+padding: 0px 37.5px;
+
+letter-spacing: 0.1em;
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.copyright-text-2{
+    width: 300px;
+height: 40px;
+
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 40px;
+
+letter-spacing: 0.1em;
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.5);
+padding: 0px 170px;
+}
